@@ -4,7 +4,7 @@ import { BASE_URL } from "./constants";
 const axiosInstance = axios.create({
     // baseURL: import.meta.env.MODE === "development" ? BASE_URL : "/",
     baseURL: BASE_URL,
-    timeout: 1000,  // Timeout in milliseconds (1 second)
+    // timeout: 1000,  // Timeout in milliseconds (1 second)
     headers: {      // Correct capitalization
         "Content-Type": "application/json",
     },
