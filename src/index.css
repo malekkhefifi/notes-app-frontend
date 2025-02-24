@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+    html {
+        font-family: "Poppins", sans-serif;
+    }
+    body {
+        background-color: #fdfeff;
+        overflow-x: hidden;
+    }
+}
+
+@layer components {
+    .input-box {
+        @apply w-full text-sm bg-transparent border-[1.5px] px-3 py-3 rounded-md outline-none;
+    }
+    .btn-primary {
+        @apply w-full text-sm text-white bg-blue-500 p-2 rounded my-1 hover:bg-blue-600;
+    }
+    .icon-btn{
+        @apply text-xl text-slate-300 cursor-pointer text-blue-500;
+    }
+    .input-label{
+        @apply text-xs text-slate-400;
+    }
+}
+
+
